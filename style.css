@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/* paleta de cor
+   roxo forte: #54428E
+   roxo fraco:  #8963BA
+   verde fraco: #AFE3C0
+   verde medio: #90C290
+   verde musgo: #688B58
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #8963BA;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+
+    overflow: hidden;
+    width: 300px;
+    height: 500px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.imagem {
+    background: url(abstract_pattern_design_background_2007.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+
+}
+form{
+    margin: 5px;
+    
+}
+h1{
+    font-size: 1.5em;
+    padding-top: 3%;
+}
+h1, p{
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.campo{
+    display: block;
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #54428E;
+    margin: 5px 0;
+}
+.campo input{
+    height: 100%;
+    width: calc(100% - 44.26px);
+    border-radius: 9px;
+    border: none;
+    background-color: #AFE3C0;
+    transform: translate(1px, -6px)
+}
+span {
+    width: 40px;
+    height: 40px;
+    padding: 8.5px;
+    color: whitesmoke;
+}
+input{
+    height: 30px;
+}
+
+input[type=submit]{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #90C290;
+    border-radius: 5px;
+    transition: 0.2s background;
+}
+input[type=submit]:hover{
+    background-color: #6f976f;
+    transition: 0.2s background;
+}
+.esqueci{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #8963BA;
+}
+.esqueci{
+    text-decoration: none;
+    padding-top: 5%;
+}

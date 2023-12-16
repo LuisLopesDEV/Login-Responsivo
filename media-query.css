@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@media (min-width: 768px) and (max-width: 992px){
+    body{
+        background: linear-gradient(to top, #AFE3C0, #8963BA);
+    }
+    section{
+        width: 85vw;
+    }
+    .imagem{
+        float: left;
+        height: 100%;
+        width: 30%;
+    }
+    .form{
+        float: right;
+        width: 70%;
+    }
+
+    .campo, .submit{
+        width: 85%;
+        margin: 38px;
+    }
+    .esqueci{
+        margin-top: 25%;
+    }
+}
+@media (min-width: 992px){
+    body{
+        background: linear-gradient(to top, #AFE3C0, #8963BA);
+    }
+    section{
+        width: 85vw;
+    }
+    .imagem{
+        float: left;
+        height: 100%;
+        width: 30%;
+    }
+    .form{
+        float: right;
+        width: 70%;
+    }
+    .campo, .submit{
+        width: 50%;
+        margin: 70px 0 70px 25%;
+         
+    }
+    .submit{
+        margin-top: -20px;
+    }
+    
+}
