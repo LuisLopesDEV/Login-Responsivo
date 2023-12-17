@@ -69,7 +69,7 @@ h1, p{
 
 .campo input {
     height: 100%;
-    width: calc(100% - 44.4px);
+    width: calc(100% - 45px);
     border-radius: 9px;
     border: none;
     background-color: #AFE3C0;
