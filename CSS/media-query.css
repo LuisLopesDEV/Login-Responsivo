@@ -5,7 +5,7 @@
         background: linear-gradient(to top, #AFE3C0, #8963BA);
     }
     section{
-        width: 85vw;
+        width: 70vw;
     }
     .imagem{
         float: left;
@@ -16,6 +16,7 @@
         float: right;
         width: 70%;
     }
+    .campo input{width: calc(100% - 44.3px);}
 
     .campo, .submit{
         width: 85%;
