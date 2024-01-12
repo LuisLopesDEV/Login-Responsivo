@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="CSS/media-query.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Rethink+Sans&display=swap');
     </style>
@@ -18,20 +19,32 @@
     <main>
         <section>
             <div class="imagem"></div>
-            <div class="form">
-                <h1 id="login">Login</h1>
-                <p id="insira">Insira seu Email e Senha aqui</p>
-                <form action="#" method="post">
-                    <div class="campo"><span class="material-symbols-outlined">person</span>
-                        <input type="email" name="iEmail" id="idEmail" placeholder="Email" required></div>
-                    <div class="campo">
-                        <span class="material-symbols-outlined">lock</span>
-                        <input type="password" name="iPass" id="idPass" placeholder="Senha" required></div>
-                    <div class="submit">
+            <div class="login">
+
+                <div class="texts">
+                    <h1 id="login">Login</h1>
+                    <p id="insira">Insira seu Email e Senha aqui</p>
+                </div>
+
+                <div class="form">
+                    <form action="#">
+                        <div class="inputs">
+                            <div class="back_inputs">
+                                <i class="bi bi-person-circle"></i>
+                                <input type="email" name="nEmail" id="iEmail" placeholder="Email:">
+                            </div>
+                            
+                            <div class="back_inputs">
+                                <i class="bi bi-lock-fill"></i>
+                                <input type="password" name="nPass" id="iPass" placeholder="Senha:">
+                            </div>
+                        </div>
+
                         <input type="submit" value="Entrar">
-                        <a href="#" class="esqueci">Esqueci a senha</a>
-                    </div>
-                </form>
+                        <a href="#">Esqueci a senha</a>
+                    </form>
+                </div>
+                
             </div>
         </section>
     </main>

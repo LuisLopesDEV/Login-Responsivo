@@ -1,54 +1,72 @@
 @charset "UTF-8";
 
 @media (min-width: 768px) and (max-width: 992px){
-    body{
+    main{
         background: linear-gradient(to top, #AFE3C0, #8963BA);
     }
     section{
         width: 70vw;
+        
     }
     .imagem{
         float: left;
         height: 100%;
-        width: 30%;
+        width: 20vw;
     }
+
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
     .form{
         float: right;
-        width: 70%;
+        width: 50vw;
     }
-    .campo input{width: calc(100% - 44.3px);}
 
-    .campo, .submit{
-        width: 85%;
-        margin: 38px;
+    .back_inputs, input[type=submit]{
+        width: 45vw;
+        margin: 20px;
     }
-    .esqueci{
-        margin-top: 25%;
+    form a{
+        margin-top: 5%;
+    }
+    .input[type=submit]{
+        font-size: 22px;
     }
 }
 @media (min-width: 992px){
-    body{
+    main{
         background: linear-gradient(to top, #AFE3C0, #8963BA);
     }
     section{
-        width: 85vw;
+        width: 90vw;
     }
     .imagem{
         float: left;
         height: 100%;
-        width: 30%;
+        width: 30vw;
     }
+
+    form{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
     .form{
         float: right;
-        width: 70%;
+        width: 60vw;
     }
-    .campo, .submit{
-        width: 50%;
-        margin: 70px 0 70px 25%;
-         
+    .back_inputs, input[type=submit]{
+        width: 55vw;
+    
     }
-    .submit{
-        margin-top: -20px;
+    input[type=submit]{
+        height: 7vh;
+        font-size: 22px;
     }
     
 }
