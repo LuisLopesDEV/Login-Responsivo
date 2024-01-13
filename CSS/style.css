@@ -2,13 +2,14 @@
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-/* paleta de cor
-   roxo forte: #54428E
-   roxo fraco:  #8963BA
-   verde fraco: #AFE3C0
-   verde medio: #90C290
-   verde musgo: #688B58
-*/
+:root{
+   --roxo_forte: #54428E;
+   --roxo_fraco: #8963BA;
+   --verde_fraco: #AFE3C0;
+   --verde_medio: #90C290;
+   --verde_musgo: #688B58;
+}  
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -22,7 +23,7 @@ main {
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background-color: #8963BA;
+    background-color: var(--roxo_fraco);
 }
 
 section {
@@ -48,7 +49,6 @@ h1 {
 
 h1,
 p {
-    display: block;
     text-align: center;
     margin-bottom: 5px;
 }
@@ -59,30 +59,18 @@ form {
     
 }
 
-.form{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-
-}
-
 .back_inputs{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 90vw;
     height: 40px;
     margin: 10px 0;
     border-radius: 10px;
-    gap: 10px;
-    background-color: #8963BA;
+    gap: 1%;
+    background-color: var(--roxo_fraco);
 }
-.inputs{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+
 .back_inputs input{
     width: 93%;
     height: 40px;
@@ -93,15 +81,13 @@ form {
     padding: 5px;
 }
 i{
-    width: 7%;
     font-size: 25px;
-
 }
 input[type=submit]{
     width: 90vw;
     border-radius: 5px;
     border: none;
-    background-color: #688B58;
+    background-color: var(--verde_medio);
     height: 5vh;
 }
 form a{
